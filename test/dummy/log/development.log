@@ -1,0 +1,48 @@
+
+
+Started GET "/home/index" for 127.0.0.1 at 2012-02-03 17:48:10 +0100
+  Processing by HomeController#index as HTML
+Rendered /Users/Francesco/core-backend/app/views/home/index.html.erb within layouts/application (3.3ms)
+Compiled application.css  (1ms)  (pid 2390)
+Compiled application.js  (16ms)  (pid 2390)
+Compiled jquery.js  (67ms)  (pid 2390)
+Compiled jquery_ujs.js  (46ms)  (pid 2390)
+Completed 200 OK in 204ms (Views: 203.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 17:48:11 +0100
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 17:48:11 +0100
+Served asset /jquery.js - 200 OK (36ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 17:48:11 +0100
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 17:48:11 +0100
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2012-02-03 17:50:49 +0100
+  Processing by HomeController#index as HTML
+Rendered /Users/Francesco/core-backend/app/views/home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-03 17:50:49 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-03 17:50:49 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-03 17:50:49 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-03 17:50:49 +0100
+Served asset /application.js - 304 Not Modified (0ms)
