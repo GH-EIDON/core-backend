@@ -1,4 +1,4 @@
-module BaseHelper
+module BackendBaseHelper
 
   def attributes
     resource_class.attribute_names - %w(id created_at updated_at)

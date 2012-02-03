@@ -1,4 +1,4 @@
-class BaseController  < InheritedResources::Base
+class BackendBaseController  < InheritedResources::Base
 
   protect_from_forgery
   respond_to :xml,:json,:html,:js
@@ -7,7 +7,7 @@ class BaseController  < InheritedResources::Base
   layout :get_layout
 
   def get_layout
-    request.xhr? ? nil : 'base'
+    request.xhr? ? nil : 'backend_base'
   end
 
 
