@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Summary of CoreBackend."
   s.description = "Description of CoreBackend."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/***/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_runtime_dependency "rails", "~> 3.1.3"
