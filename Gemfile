@@ -8,6 +8,18 @@ gemspec
 # jquery-rails is used by the dummy application
 gem "jquery-rails"
 
+gem 'simple_form'
+gem 'inherited_resources'
+gem "tabletastic"
+gem "attrtastic", :git => 'git://github.com/MBO/attrtastic.git'
+gem 'kaminari'
+gem "ransack"
+gem 'has_scope'
+gem 'awesome_print'
+gem 'rails3-jquery-autocomplete'
+gem 'awesome_nested_set'
+gem "best_in_place"
+gem "cancan"
 
 
 # Declare any dependencies that are still in development here instead of in
