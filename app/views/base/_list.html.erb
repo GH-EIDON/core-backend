@@ -1,0 +1,9 @@
+<div class="table">
+<%= table_for(collection) do |t|
+      t.data do |t2|
+        t.data
+        t2.cell(:actions) { |r| table_actions(r) }
+      end
+    end %>
+</div>
+

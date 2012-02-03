@@ -1,0 +1,18 @@
+
+
+<div class="inner">
+  <%= semantic_attributes_for resource do |attr| %>
+  
+    <%= attr.attributes do %>
+      <% for k in resource.attributes.keys %>
+         <%= attr.attribute k %>
+      <% end %>
+    <% end %>
+  
+
+    ----------DEBUG---------------<br/>
+    <%= ap(resource).html_safe %>
+    ----------DEBUG---------------<br/>
+  
+  <% end %>
+</div>

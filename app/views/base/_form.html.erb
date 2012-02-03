@@ -1,0 +1,13 @@
+<%= simple_form_for(resource, :url => get_url_for_resource) do |f| %>
+  <%= f.error_notification %>
+
+  <% attributes.each do |attribute| %>
+    <%= f.input attribute, :input_html => { :class => 'xLarge' } %>
+  <% end %>
+
+  <div class="actions">
+    <%= f.button :submit,  :label => 'Salva',  :class => 'btn primary' %>
+  </div>
+<% end %>
+
+
