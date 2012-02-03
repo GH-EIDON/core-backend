@@ -1,7 +1,0 @@
-<%= render :partial => 'breadcumb' %>
-
-<%= render :partial => 'view' %>
-
-<% model_class= resource.respond_to?(:model) ? resource.model.class : resource.class %>
-<%= link_to 'Modifica', edit_resource_url(resource), :class => 'btn primary' if can?(:update,model_class) %>
-<%= link_to 'Torna indietro', collection_url, :class => 'btn default' %>

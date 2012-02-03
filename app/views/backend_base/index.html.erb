@@ -1,9 +1,0 @@
-<%= render :partial => 'breadcumb' %>
-<div class="well">
-  <%= link_to 'Aggiungi', new_resource_url , :title => 'Aggiungi' ,:class => 'btn small icon add' if can?(:manage,collection.class) %>
-</div>
-<%= render 'search' %>
-<%= render :partial => 'list' %>
-<div class="well">
-  <%= link_to 'Aggiungi', new_resource_url , :class => 'btn small icon add' %>
-</div>
