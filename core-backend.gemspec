@@ -31,6 +31,5 @@ Gem::Specification.new do |s|
   s.add_dependency "best_in_place"
   s.add_dependency "cancan"
 
-
   s.add_development_dependency "sqlite3"
 end
