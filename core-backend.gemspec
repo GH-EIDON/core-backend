@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.name        = "core-backend"
   s.version     = CoreBackend::VERSION
   s.authors     = ["aaaa"]
-  s.email       = ["ssss"]
-  s.homepage    = "ssss"
+  s.email       = ["scsc@fef.com"]
+  s.homepage    = "http://ssss"
   s.summary     = "dddd"
   s.description = "dddddd"
 
